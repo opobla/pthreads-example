@@ -30,6 +30,7 @@ int main() {
     pthread_create(&thread3, NULL, my_own_thread_ogarcia, NULL);
     pthread_join(thread1, NULL);
     pthread_join(thread2, NULL);
+    pthread_join(thread3, NULL);
     return 0;
 }
 
